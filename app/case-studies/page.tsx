@@ -58,9 +58,9 @@ export default function CaseStudiesPage() {
                   onClick={() => setActive(ind)}
                   className="px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200"
                   style={{
-                    background: active === ind ? "var(--teal)" : "rgba(13,17,23,0.7)",
-                    color: active === ind ? "#07090f" : "var(--muted)",
-                    border: `1px solid ${active === ind ? "var(--teal)" : "rgba(0,212,170,0.12)"}`,
+                    background: active === ind ? "var(--teal)" : "rgba(239,246,255,0.8)",
+                    color: active === ind ? "#FFFFFF" : "var(--muted)",
+                    border: `1px solid ${active === ind ? "var(--teal)" : "rgba(0,112,242,0.14)"}`,
                   }}
                 >
                   {ind}
@@ -80,9 +80,9 @@ export default function CaseStudiesPage() {
                       <span
                         className="inline-block text-xs font-semibold tracking-widest uppercase px-2.5 py-1 rounded-md mb-2"
                         style={{
-                          background: "rgba(0,212,170,0.1)",
+                          background: "rgba(0,112,242,0.1)",
                           color: "var(--teal)",
-                          border: "1px solid rgba(0,212,170,0.15)",
+                          border: "1px solid rgba(0,112,242,0.15)",
                         }}
                       >
                         {cs.industry}
@@ -97,7 +97,7 @@ export default function CaseStudiesPage() {
                     <div
                       className="w-8 h-8 rounded-lg flex items-center justify-center shrink-0"
                       style={{
-                        background: "rgba(0,212,170,0.08)",
+                        background: "rgba(0,112,242,0.08)",
                         color: "var(--teal)",
                       }}
                     >
@@ -141,8 +141,8 @@ export default function CaseStudiesPage() {
                   <div
                     className="rounded-xl p-4 flex items-center gap-3"
                     style={{
-                      background: "rgba(0,212,170,0.06)",
-                      border: "1px solid rgba(0,212,170,0.15)",
+                      background: "rgba(0,112,242,0.06)",
+                      border: "1px solid rgba(0,112,242,0.15)",
                     }}
                   >
                     <div
@@ -161,7 +161,7 @@ export default function CaseStudiesPage() {
                   <div
                     className="mt-4 pt-4 border-t text-xs"
                     style={{
-                      borderColor: "rgba(0,212,170,0.08)",
+                      borderColor: "rgba(0,112,242,0.08)",
                       color: "var(--muted-2)",
                     }}
                   >

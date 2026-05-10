@@ -55,8 +55,8 @@ export default function ServicesGrid() {
                     <div
                       className="w-12 h-12 rounded-xl flex items-center justify-center text-xl"
                       style={{
-                        background: "rgba(0, 212, 170, 0.08)",
-                        border: "1px solid rgba(0, 212, 170, 0.15)",
+                        background: "rgba(0, 112, 242, 0.07)",
+                        border: "1px solid rgba(0, 112, 242, 0.14)",
                       }}
                     >
                       {service.icon}

@@ -53,7 +53,7 @@ export default function StatsSection() {
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
-          background: "radial-gradient(ellipse 80% 50% at 50% 50%, rgba(0, 212, 170, 0.05) 0%, transparent 70%)",
+          background: "radial-gradient(ellipse 80% 50% at 50% 50%, rgba(0, 112, 242, 0.05) 0%, transparent 70%)",
         }}
       />
 

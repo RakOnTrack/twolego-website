@@ -55,8 +55,8 @@ export default function IndustriesPage() {
                       <div
                         className="w-16 h-16 rounded-2xl flex items-center justify-center text-3xl shrink-0"
                         style={{
-                          background: "rgba(0,212,170,0.06)",
-                          border: "1px solid rgba(0,212,170,0.12)",
+                          background: "rgba(0,112,242,0.06)",
+                          border: "1px solid rgba(0,112,242,0.12)",
                         }}
                       >
                         {industry.icon}
@@ -107,7 +107,7 @@ export default function IndustriesPage() {
                         </div>
 
                         {industry.clients && (
-                          <div className="mt-5 pt-5 border-t" style={{ borderColor: "rgba(0,212,170,0.08)" }}>
+                          <div className="mt-5 pt-5 border-t" style={{ borderColor: "rgba(0,112,242,0.08)" }}>
                             <span
                               className="text-xs"
                               style={{ color: "var(--muted-2)" }}

@@ -10,15 +10,15 @@ export default function CTABand() {
           <div
             className="relative rounded-3xl overflow-hidden p-12 lg:p-16 text-center"
             style={{
-              background: "linear-gradient(135deg, rgba(0, 212, 170, 0.12) 0%, rgba(0, 184, 122, 0.08) 100%)",
-              border: "1px solid rgba(0, 212, 170, 0.2)",
+              background: "linear-gradient(135deg, rgba(0, 112, 242, 0.08) 0%, rgba(0, 61, 143, 0.05) 100%)",
+              border: "1px solid rgba(0, 112, 242, 0.18)",
             }}
           >
             {/* Background glow */}
             <div
               className="absolute inset-0 pointer-events-none"
               style={{
-                background: "radial-gradient(ellipse 60% 60% at 50% 50%, rgba(0,212,170,0.08) 0%, transparent 70%)",
+                background: "radial-gradient(ellipse 60% 60% at 50% 50%, rgba(0,112,242,0.06) 0%, transparent 70%)",
               }}
             />
 

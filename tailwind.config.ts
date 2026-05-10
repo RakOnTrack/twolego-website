@@ -9,18 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bg: "#07090f",
-        surface: "#0d1117",
-        "surface-2": "#131921",
+        bg: "#FFFFFF",
+        surface: "#F8FAFC",
+        "surface-2": "#EFF6FF",
         teal: {
-          DEFAULT: "#00d4aa",
-          dark: "#00b87a",
-          glow: "rgba(0, 212, 170, 0.15)",
-          "glow-strong": "rgba(0, 212, 170, 0.3)",
+          DEFAULT: "#0070F2",
+          dark: "#003D8F",
+          glow: "rgba(0, 112, 242, 0.12)",
+          "glow-strong": "rgba(0, 112, 242, 0.25)",
         },
-        ink: "#f0f6fc",
-        muted: "#7d8590",
-        "muted-2": "#444c56",
+        ink: "#0F172A",
+        muted: "#475569",
+        "muted-2": "#94A3B8",
       },
       fontFamily: {
         sans: ["var(--font-geist-sans)", "sans-serif"],
@@ -71,14 +71,14 @@ const config: Config = {
       },
       backgroundImage: {
         "teal-gradient":
-          "linear-gradient(135deg, #00d4aa 0%, #00b87a 100%)",
+          "linear-gradient(135deg, #0070F2 0%, #003D8F 100%)",
         "glass-gradient":
-          "linear-gradient(135deg, rgba(13,17,23,0.8) 0%, rgba(19,25,33,0.6) 100%)",
+          "linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(239,246,255,0.8) 100%)",
       },
       boxShadow: {
-        glass: "0 4px 32px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.05)",
-        "teal-glow": "0 0 24px rgba(0, 212, 170, 0.2), 0 0 48px rgba(0, 212, 170, 0.08)",
-        "teal-glow-strong": "0 0 32px rgba(0, 212, 170, 0.4)",
+        glass: "0 4px 24px rgba(0,0,0,0.06), inset 0 1px 0 rgba(255,255,255,0.9)",
+        "teal-glow": "0 0 24px rgba(0, 112, 242, 0.2), 0 0 48px rgba(0, 112, 242, 0.08)",
+        "teal-glow-strong": "0 0 32px rgba(0, 112, 242, 0.4)",
       },
       backdropBlur: {
         glass: "12px",

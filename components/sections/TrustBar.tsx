@@ -10,7 +10,7 @@ export default function TrustBar() {
       className="py-16 border-y"
       style={{
         background: "var(--surface)",
-        borderColor: "rgba(0, 212, 170, 0.08)",
+        borderColor: "rgba(0, 112, 242, 0.1)",
       }}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">

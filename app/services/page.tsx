@@ -57,8 +57,8 @@ export default function ServicesPage() {
                       <div
                         className="w-14 h-14 rounded-xl flex items-center justify-center text-2xl shrink-0"
                         style={{
-                          background: "rgba(0,212,170,0.08)",
-                          border: "1px solid rgba(0,212,170,0.15)",
+                          background: "rgba(0,112,242,0.08)",
+                          border: "1px solid rgba(0,112,242,0.15)",
                         }}
                       >
                         {service.icon}

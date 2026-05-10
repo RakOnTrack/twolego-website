@@ -25,14 +25,14 @@ export default function Footer() {
       className="relative border-t"
       style={{
         background: "var(--surface)",
-        borderColor: "rgba(0, 212, 170, 0.08)",
+        borderColor: "rgba(0, 112, 242, 0.1)",
       }}
     >
       {/* Shimmer line top */}
       <div
         className="absolute top-0 left-0 right-0 h-px"
         style={{
-          background: "linear-gradient(90deg, transparent 0%, rgba(0,212,170,0.4) 50%, transparent 100%)",
+          background: "linear-gradient(90deg, transparent 0%, rgba(0,112,242,0.4) 50%, transparent 100%)",
         }}
       />
 
@@ -49,12 +49,12 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-sm leading-relaxed mb-6" style={{ color: "var(--muted)" }}>
-              Toronto&apos;s most experienced SAP implementation partner. Transforming businesses since 1999.
+              North America&apos;s trusted SAP implementation partner. Transforming businesses since 1999.
             </p>
             <div className="flex gap-3">
               <a
                 href="#"
-                className="w-9 h-9 rounded-lg flex items-center justify-center glass transition-colors hover:border-teal-DEFAULT"
+                className="w-9 h-9 rounded-lg flex items-center justify-center glass transition-colors"
                 style={{ color: "var(--muted)" }}
                 aria-label="LinkedIn"
               >
@@ -120,17 +120,17 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={15} className="mt-0.5 shrink-0" style={{ color: "var(--teal)" }} />
                 <span className="text-sm" style={{ color: "var(--muted)" }}>
-                  161 Bay Street Suite 27<br />Toronto, ON, Canada
+                  1100 W Town and Country Rd Suite 1250<br />Orange, CA
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={15} className="shrink-0" style={{ color: "var(--teal)" }} />
                 <a
-                  href="tel:4168324961"
+                  href="tel:7149126405"
                   className="text-sm transition-colors hover:text-teal-DEFAULT"
                   style={{ color: "var(--muted)" }}
                 >
-                  416-832-4961
+                  714-912-6405
                 </a>
               </li>
               <li className="flex items-center gap-3">
@@ -150,13 +150,13 @@ export default function Footer() {
         {/* Bottom bar */}
         <div
           className="mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4"
-          style={{ borderTop: "1px solid rgba(0, 212, 170, 0.08)" }}
+          style={{ borderTop: "1px solid rgba(0, 112, 242, 0.1)" }}
         >
           <p className="text-xs" style={{ color: "var(--muted-2)" }}>
             © {new Date().getFullYear()} TwoLego. All rights reserved.
           </p>
           <p className="text-xs" style={{ color: "var(--muted-2)" }}>
-            SAP Certified Partner · Founded 1999 · Toronto, Canada
+            SAP Certified Partner · Founded 1999 · Orange County, CA
           </p>
         </div>
       </div>

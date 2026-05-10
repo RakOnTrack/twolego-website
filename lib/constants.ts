@@ -1,6 +1,6 @@
 export const CONTACT = {
-  address: "161 Bay Street Suite 27, Toronto, ON, Canada",
-  phone: "416-832-4961",
+  address: "1100 W Town and Country Rd Suite 1250, Orange, CA",
+  phone: "714-912-6405",
   email: "info@twolego.com",
   founded: 1999,
 };

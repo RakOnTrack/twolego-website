@@ -18,9 +18,26 @@ export default function Hero() {
       className="relative min-h-screen flex flex-col justify-center overflow-hidden pt-16"
       style={{ background: "var(--bg)" }}
     >
+      {/* Video background */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover z-0"
+        autoPlay
+        muted
+        loop
+        playsInline
+        src="/hero-video.mp4"
+      />
+
+      {/* Fallback gradient mesh (visible when no video) */}
       <GradientMesh />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-24 lg:py-32">
+      {/* White overlay to keep text readable */}
+      <div
+        className="absolute inset-0 z-10"
+        style={{ background: "rgba(255, 255, 255, 0.72)" }}
+      />
+
+      <div className="relative z-20 max-w-7xl mx-auto px-6 lg:px-8 py-24 lg:py-32">
         {/* Badge */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -40,7 +57,7 @@ export default function Hero() {
                 animation: "pulse-glow 2s ease-in-out infinite",
               }}
             />
-            SAP Certified Partner · Toronto, Canada
+            SAP Certified Partner · North America
           </div>
         </motion.div>
 
@@ -67,7 +84,7 @@ export default function Hero() {
           className="text-lg sm:text-xl max-w-2xl mb-10 leading-relaxed"
           style={{ color: "var(--muted)" }}
         >
-          Toronto&apos;s most experienced SAP implementation partner — from SME to
+          North America&apos;s most trusted SAP implementation partner — from SME to
           enterprise, across 70+ countries. We don&apos;t just implement software;
           we transform how you operate.
         </motion.p>
@@ -120,7 +137,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 z-20"
         style={{ color: "var(--muted-2)" }}
       >
         <span className="text-xs tracking-widest uppercase font-medium">Scroll</span>

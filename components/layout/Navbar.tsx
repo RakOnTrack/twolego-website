@@ -35,12 +35,12 @@ export default function Navbar() {
       className="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
       style={{
         background: scrolled
-          ? "rgba(7, 9, 15, 0.92)"
-          : "rgba(7, 9, 15, 0.6)",
+          ? "rgba(255, 255, 255, 0.95)"
+          : "rgba(255, 255, 255, 0.75)",
         backdropFilter: "blur(16px)",
         WebkitBackdropFilter: "blur(16px)",
         borderBottom: scrolled
-          ? "1px solid rgba(0, 212, 170, 0.1)"
+          ? "1px solid rgba(0, 112, 242, 0.12)"
           : "1px solid transparent",
       }}
     >
@@ -101,12 +101,12 @@ export default function Navbar() {
         className="md:hidden overflow-hidden transition-all duration-300"
         style={{
           maxHeight: open ? "400px" : "0",
-          borderTop: open ? "1px solid rgba(0, 212, 170, 0.08)" : "none",
+          borderTop: open ? "1px solid rgba(0, 112, 242, 0.1)" : "none",
         }}
       >
         <div
           className="px-6 py-4 flex flex-col gap-4"
-          style={{ background: "rgba(7, 9, 15, 0.98)" }}
+          style={{ background: "rgba(255, 255, 255, 0.98)" }}
         >
           {navLinks.map((link) => (
             <Link

@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm audit *)",
+      "Bash(npm  *)",
+      "Bash(Remove-Item -Recurse -Force \"node_modules\\\\next\\\\node_modules\\\\postcss\")",
+      "Bash(npm list *)",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\('metadata',{}\\).get\\('vulnerabilities',{}\\), indent=2\\)\\)\")",
+      "Bash(npm --version)",
+      "WebFetch(domain:www.accenture.com)",
+      "WebFetch(domain:www2.deloitte.com)",
+      "WebFetch(domain:www.vision33.com)",
+      "WebFetch(domain:clarkstonconsulting.com)",
+      "WebFetch(domain:www.protiviti.com)",
+      "WebFetch(domain:www.deloitte.com)",
+      "WebFetch(domain:leverx.com)",
+      "WebFetch(domain:www.rimmini.com)",
+      "WebSearch",
+      "WebFetch(domain:www.riministreet.com)",
+      "WebFetch(domain:mixkit.co)",
+      "WebFetch(domain:coverr.co)",
+      "WebFetch(domain:pixabay.com)",
+      "WebFetch(domain:www.pexels.com)",
+      "WebFetch(domain:videos.pexels.com)"
+    ]
+  }
+}

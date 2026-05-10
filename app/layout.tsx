@@ -16,18 +16,18 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "TwoLego — SAP Implementation Partner | Toronto",
+    default: "TwoLego — SAP Implementation Partner | North America",
     template: "%s | TwoLego",
   },
   description:
-    "Toronto's most experienced SAP implementation partner. 25+ years transforming businesses with SAP S/4HANA, Business One, SuccessFactors, and more across 70+ countries.",
-  keywords: ["SAP", "ERP", "SAP S/4HANA", "SAP Business One", "ERP implementation", "Toronto", "Canada"],
+    "North America's most trusted SAP implementation partner. 25+ years transforming businesses with SAP S/4HANA, Business One, SuccessFactors, and more across 70+ countries.",
+  keywords: ["SAP", "ERP", "SAP S/4HANA", "SAP Business One", "ERP implementation", "North America", "Orange County", "California"],
   openGraph: {
     type: "website",
     siteName: "TwoLego",
-    title: "TwoLego — SAP Implementation Partner | Toronto",
+    title: "TwoLego — SAP Implementation Partner | North America",
     description:
-      "Toronto's most experienced SAP implementation partner. 25+ years transforming businesses with SAP S/4HANA, Business One, SuccessFactors, and more.",
+      "North America's most trusted SAP implementation partner. 25+ years transforming businesses with SAP S/4HANA, Business One, SuccessFactors, and more.",
   },
 };
 
