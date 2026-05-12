@@ -42,7 +42,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-6">
               <div className="relative w-8 h-8">
-                <Image src="/logo.png" alt="TwoLego" fill className="object-contain" />
+                <Image src="/logo.png" alt="TwoLego" fill sizes="32px" className="object-contain" />
               </div>
               <span className="text-lg font-semibold" style={{ color: "var(--ink)" }}>
                 TwoLego

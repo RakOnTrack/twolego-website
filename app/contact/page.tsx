@@ -225,7 +225,7 @@ export default function ContactPage() {
                           placeholder="Jane Smith"
                           className="w-full px-4 py-3 rounded-xl text-sm outline-none transition-all duration-200"
                           style={{
-                            background: "rgba(7,9,15,0.8)",
+                            background: "var(--surface)",
                             border: "1px solid rgba(0,112,242,0.12)",
                             color: "var(--ink)",
                           }}
@@ -251,7 +251,7 @@ export default function ContactPage() {
                           placeholder="Acme Corp"
                           className="w-full px-4 py-3 rounded-xl text-sm outline-none transition-all duration-200"
                           style={{
-                            background: "rgba(7,9,15,0.8)",
+                            background: "var(--surface)",
                             border: "1px solid rgba(0,112,242,0.12)",
                             color: "var(--ink)",
                           }}
@@ -279,7 +279,7 @@ export default function ContactPage() {
                         placeholder="jane@acmecorp.com"
                         className="w-full px-4 py-3 rounded-xl text-sm outline-none transition-all duration-200"
                         style={{
-                          background: "rgba(7,9,15,0.8)",
+                          background: "var(--surface)",
                           border: "1px solid rgba(0,112,242,0.12)",
                           color: "var(--ink)",
                         }}
@@ -303,7 +303,7 @@ export default function ContactPage() {
                         name="product"
                         className="w-full px-4 py-3 rounded-xl text-sm outline-none transition-all duration-200 appearance-none"
                         style={{
-                          background: "rgba(7,9,15,0.8)",
+                          background: "var(--surface)",
                           border: "1px solid rgba(0,112,242,0.12)",
                           color: "var(--muted)",
                         }}
@@ -337,7 +337,7 @@ export default function ContactPage() {
                         placeholder="Tell us about your project, current system, and goals..."
                         className="w-full px-4 py-3 rounded-xl text-sm outline-none transition-all duration-200 resize-none"
                         style={{
-                          background: "rgba(7,9,15,0.8)",
+                          background: "var(--surface)",
                           border: "1px solid rgba(0,112,242,0.12)",
                           color: "var(--ink)",
                         }}

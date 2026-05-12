@@ -21,7 +21,8 @@
       "WebFetch(domain:coverr.co)",
       "WebFetch(domain:pixabay.com)",
       "WebFetch(domain:www.pexels.com)",
-      "WebFetch(domain:videos.pexels.com)"
+      "WebFetch(domain:videos.pexels.com)",
+      "Bash(node -e \"const p = require\\('./node_modules/next/package.json'\\); console.log\\(p.version\\)\")"
     ]
   }
 }

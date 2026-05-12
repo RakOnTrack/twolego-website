@@ -19,6 +19,9 @@ export const metadata: Metadata = {
     default: "TwoLego — SAP Implementation Partner | North America",
     template: "%s | TwoLego",
   },
+  icons: {
+    icon: "/logo.png",
+  },
   description:
     "North America's most trusted SAP implementation partner. 25+ years transforming businesses with SAP S/4HANA, Business One, SuccessFactors, and more across 70+ countries.",
   keywords: ["SAP", "ERP", "SAP S/4HANA", "SAP Business One", "ERP implementation", "North America", "Orange County", "California"],

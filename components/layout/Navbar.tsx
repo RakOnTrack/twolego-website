@@ -52,6 +52,7 @@ export default function Navbar() {
               src="/logo.png"
               alt="TwoLego"
               fill
+              sizes="32px"
               className="object-contain"
               priority
             />
