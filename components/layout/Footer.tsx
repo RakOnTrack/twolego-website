@@ -136,11 +136,11 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <Mail size={15} className="shrink-0" style={{ color: "var(--teal)" }} />
                 <a
-                  href="mailto:info@twolego.com"
+                  href="mailto:dave@twolego.com"
                   className="text-sm transition-colors hover:text-teal-DEFAULT"
                   style={{ color: "var(--muted)" }}
                 >
-                  info@twolego.com
+                  dave@twolego.com
                 </a>
               </li>
             </ul>

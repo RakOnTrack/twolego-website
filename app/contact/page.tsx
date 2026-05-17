@@ -146,11 +146,11 @@ export default function ContactPage() {
                         Email
                       </p>
                       <a
-                        href="mailto:info@twolego.com"
+                        href="mailto:dave@twolego.com"
                         className="text-sm transition-colors"
                         style={{ color: "var(--muted)" }}
                       >
-                        info@twolego.com
+                        dave@twolego.com
                       </a>
                     </div>
                   </div>
